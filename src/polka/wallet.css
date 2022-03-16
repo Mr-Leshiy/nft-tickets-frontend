@@ -1,0 +1,13 @@
+.integrate-button {
+    font-size: 24px;
+    background-color: #38809c;
+    color: white;
+    padding: 10px 24px;
+    border-radius: 6px;
+    transition-duration: 0.4s;
+}
+
+.integrate-button:hover {
+    background-color: white;
+    color: black;
+}

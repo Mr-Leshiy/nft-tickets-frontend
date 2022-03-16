@@ -1,15 +1,14 @@
 import React from 'react';
 import './App.css';
+import PolkaWallet from './polka/wallet';
 
 class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-        </header>
+        <div className="App-integration">
+          <PolkaWallet />
+        </div>
       </div>
     );
   }
