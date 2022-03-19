@@ -3,10 +3,6 @@ import './App.css';
 import PolkaWallet from './polka/wallet';
 
 class App extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     return (
       <div className="App">
