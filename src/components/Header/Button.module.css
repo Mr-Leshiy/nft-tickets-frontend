@@ -1,13 +1,14 @@
 .button {
-  border-color: 000000;
+  border-color: #000000;
+  font-size: x-large;
   display: flex;
+  padding: 10px;
   align-items: center;
   text-align: center;
   color: #fffbfb;
-  border-radius: 10px;
+  border-radius: 5px;
   cursor: pointer;
-
-  background: #918f8f;
+  background: inherit;
 }
 
 .button:focus {
