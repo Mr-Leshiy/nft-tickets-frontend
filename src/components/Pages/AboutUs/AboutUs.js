@@ -1,10 +1,11 @@
+import Page from "../../UI/Page";
 import styles from "./AboutUs.module.css";
 
 const AboutUs = (props) => {
   return (
-    <div className={styles.page}>
+    <Page>
       <h1>About us</h1>
-    </div>
+    </Page>
   );
 };
 
