@@ -1,4 +1,4 @@
-import styles from "./AboutUsPage.module.css";
+import styles from "./AboutUs.module.css";
 
 const AboutUs = (props) => {
   return (
