@@ -1,0 +1,23 @@
+.page {
+  margin: auto;
+  margin-top: 80px;
+  animation: page-appear 1s ease-out forwards;
+}
+
+.page h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 0;
+}
+
+@keyframes page-appear {
+  from {
+    opacity: 0;
+    transform: translateY(3rem);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

@@ -5,7 +5,7 @@ const Header = (props) => {
   return (
     <header className={styles.header}>
       <h1>NFT Tickets</h1>
-      <Navigation />
+      <Navigation onChangePage={props.onChangePage} />
     </header>
   );
 };
