@@ -1,5 +1,4 @@
 import { useState } from "react";
-import "./App.css";
 import Header from "./components/Header/Header";
 import AboutUs from "./components/Pages/AboutUs/AboutUs";
 import Tickets from "./components/Pages/Tickets/Tickets";
