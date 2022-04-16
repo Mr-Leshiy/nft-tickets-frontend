@@ -1,6 +1,7 @@
 import Page from "../../UI/Page";
 import Button from "../../UI/Button";
 import styles from "./Tickets.module.css";
+import Modal from "../../UI/Modal";
 
 const Tickets = (props) => {
   return (
