@@ -14,7 +14,6 @@ const Tickets = (props) => {
   };
 
   const hideCreateTicketsHandler = () => {
-    console.log("hide create");
     setCreateTicketsIsShown(false);
   };
 
@@ -23,8 +22,6 @@ const Tickets = (props) => {
   };
 
   const hideSendTicketsHandler = () => {
-    console.log("hide send");
-
     setSendTicketsIsShown(false);
   };
 
