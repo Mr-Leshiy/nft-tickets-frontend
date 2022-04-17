@@ -27,7 +27,7 @@ const Tickets = (props) => {
 
   return (
     <Page>
-      <h1>Tickets</h1>
+      <h1>Fucking Tickets</h1>
       <div className={styles.bar}>
         <Button input={{ onClick: showCreateTicketsHandler }}>
           Create Tickets
