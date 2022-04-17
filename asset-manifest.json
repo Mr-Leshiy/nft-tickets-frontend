@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/nft-tickets-frontend/static/css/main.979dd59e.css",
+    "main.js": "/nft-tickets-frontend/static/js/main.3d874e50.js",
+    "index.html": "/nft-tickets-frontend/index.html",
+    "main.979dd59e.css.map": "/nft-tickets-frontend/static/css/main.979dd59e.css.map",
+    "main.3d874e50.js.map": "/nft-tickets-frontend/static/js/main.3d874e50.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.979dd59e.css",
+    "static/js/main.3d874e50.js"
+  ]
+}
