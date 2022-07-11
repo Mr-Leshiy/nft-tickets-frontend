@@ -1,0 +1,33 @@
+@import "./../../../assets/styles/variables/colors.scss";
+@import "./../../../assets/styles/variables/fonts.scss";
+
+.info {
+  padding: 110px 0;
+  background-image: url(../../../assets/images/background-info.jpg);
+  background-size: cover;
+
+  &__inner {
+    width: 100%;
+    max-width: 890px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  p {
+    font-family: $montserrat;
+    font-size: 18px;
+    line-height: 30px;
+
+    text-align: center;
+
+    color: #fff;
+  }
+
+  &__buttons {
+    display: flex;
+    gap: 25px;
+    margin: 40px 0 0 0;
+  }
+}

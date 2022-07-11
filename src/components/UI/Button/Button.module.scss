@@ -1,0 +1,59 @@
+@import "./../../../assets/styles/variables/colors.scss";
+@import "./../../../assets/styles/variables/fonts.scss";
+
+.button {
+  display: flex;
+  align-items: center;
+  padding: 10px 25px;
+  background: $dark-color;
+  color: #fff;
+  border: 3px solid $dark-color;
+  border-radius: 27px;
+
+  font-family: $montserrat;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 1;
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+
+  img {
+    margin-left: 8px;
+  }
+
+  &:hover {
+    background: transparent;
+    color: #fff;
+  }
+}
+
+.button_transparent {
+  @extend .button;
+  background: transparent;
+
+  &:hover {
+    background: $dark-color;
+    color: #fff;
+  }
+}
+
+.button_yellow {
+  @extend .button;
+  background: $main-color;
+  border: 3px solid $main-color;
+
+  &:hover {
+    background: transparent;
+    color: #fff;
+  }
+}
+
+.button_yellow-transparent {
+  @extend .button_yellow;
+  background: transparent;
+  color: #fff;
+
+  &:hover {
+    background: $main-color;
+  }
+}

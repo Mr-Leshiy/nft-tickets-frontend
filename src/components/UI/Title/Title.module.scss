@@ -1,0 +1,40 @@
+@import "./../../../assets/styles/variables/colors.scss";
+@import "./../../../assets/styles/variables/fonts.scss";
+
+.title {
+  margin: 0 0 40px 0;
+  font-family: $bebas-neue;
+
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+
+  letter-spacing: 0.05em;
+
+  color: #fff;
+
+  &:after {
+    content: "";
+    display: block;
+    width: 33%;
+    height: 2px;
+    margin: 5px auto 0 auto;
+    background: #fff;
+  }
+
+  &_wrapper {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.title_brown {
+  @extend .title;
+
+  color: $brown-color;
+
+  &:after {
+    background: $brown-color;
+  }
+}
