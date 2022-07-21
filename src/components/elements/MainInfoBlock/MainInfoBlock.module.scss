@@ -1,11 +1,15 @@
 @import "./../../../assets/styles/variables/colors.scss";
 @import "./../../../assets/styles/variables/fonts.scss";
+@import "./../../../assets/styles/variables/sizes.scss";
 
 .info {
-  padding: 110px 0;
+  padding: 11rem 10px;
   background-image: url(../../../assets/images/background-info.jpg);
   background-size: cover;
 
+  @media only screen and (max-width: $tabletWidth) {
+    padding: 6rem 10px;
+  }
   &__inner {
     width: 100%;
     max-width: 890px;
@@ -17,8 +21,8 @@
 
   p {
     font-family: $montserrat;
-    font-size: 18px;
-    line-height: 30px;
+    font-size: 1.8rem;
+    line-height: 1.45;
 
     text-align: center;
 
@@ -27,7 +31,7 @@
 
   &__buttons {
     display: flex;
-    gap: 25px;
-    margin: 40px 0 0 0;
+    gap: 2.5rem;
+    margin: 4rem 0 0 0;
   }
 }

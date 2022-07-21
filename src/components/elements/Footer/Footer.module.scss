@@ -1,10 +1,16 @@
 @import "./../../../assets/styles/variables/colors.scss";
 @import "./../../../assets/styles/variables/fonts.scss";
+@import "./../../../assets/styles/variables/sizes.scss";
 
 .footer {
   &__main {
-    padding: 170px 0 160px 0;
+    padding: 17rem 10px 16rem 10px;
     background: $dark-color;
+
+    @media only screen and (max-width: $tabletWidth) {
+      padding: 5rem 10px 4rem 10px;
+    }
+
     &_wrapper {
       width: 100%;
       max-width: 1560px;
@@ -12,13 +18,25 @@
       justify-content: space-between;
       align-items: center;
       margin: 0 auto;
-      padding-bottom: 100px;
+      padding-bottom: 10rem;
       border-bottom: 1px solid #ff9100;
+
+      @media only screen and (max-width: $tabletWidth) {
+        padding-bottom: 5rem;
+
+        & > * {
+          margin: 20px 0;
+        }
+      }
+
+      @media only screen and (max-width: $smallTabletWidth) {
+        flex-direction: column;
+      }
     }
   }
 
   &__bottom {
-    padding: 40px 0;
+    padding: 4rem 10px;
     background-color: $footer-color;
 
     &_wrapper {
@@ -34,6 +52,7 @@
   &__nav {
     display: flex;
     margin: 0;
+    padding: 0;
     list-style: none;
     font-family: $montserrat;
 
@@ -42,7 +61,7 @@
     }
 
     a {
-      font-size: 19px;
+      font-size: 1.9rem;
       font-weight: 500;
       color: $main-color;
       text-decoration: none;
@@ -56,7 +75,7 @@
 
   &__copywrite {
     font-family: $montserrat;
-    font-size: 18px;
+    font-size: 1.8rem;
     line-height: 22px;
 
     color: #fff;
@@ -73,7 +92,7 @@
       a {
         font-family: $montserrat;
         font-weight: 400;
-        font-size: 18px;
+        font-size: 1.8rem;
         line-height: 22px;
 
         color: #fff;

@@ -8,17 +8,17 @@ const HeadSocials = () => {
   return (
     <ul className={styles.socials}>
       <li>
-        <a href="#">
+        <a href="https://github.com/">
           <img src={icon_linkedin} alt="linkedin" />
         </a>
       </li>
       <li>
-        <a href="#">
+        <a href="https://github.com/">
           <img src={icon_inst} alt="linkedin" />
         </a>
       </li>
       <li>
-        <a href="#">
+        <a href="https://github.com/">
           <img src={icon_telegram} alt="linkedin" />
         </a>
       </li>

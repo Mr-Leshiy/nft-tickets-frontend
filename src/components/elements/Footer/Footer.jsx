@@ -12,13 +12,13 @@ const Footer = () => {
 
           <ul className={styles.footer__nav}>
             <li>
-              <a href="#">Home</a>
+              <a href="https://github.com/">Home</a>
             </li>
             <li>
-              <a href="#">Tickets</a>
+              <a href="https://github.com/">Tickets</a>
             </li>
             <li>
-              <a href="#">Info</a>
+              <a href="https://github.com/">Info</a>
             </li>
           </ul>
 
@@ -34,13 +34,13 @@ const Footer = () => {
 
           <ul className={styles.footer__languages}>
             <li>
-              <a href="#">EN</a>
+              <a href="https://github.com/">EN</a>
             </li>
             <li>
-              <a href="#">RU</a>
+              <a href="https://github.com/">RU</a>
             </li>
             <li>
-              <a href="#">UA</a>
+              <a href="https://github.com/">UA</a>
             </li>
           </ul>
         </div>

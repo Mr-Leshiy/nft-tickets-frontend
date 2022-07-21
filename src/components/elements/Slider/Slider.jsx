@@ -1,7 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 import Title from "../../UI/Title/Title.jsx";
 import styles from "./Slider.module.scss";
-// import BtnSlider from './BtnSlider
 import dataSlider from "./dataSlider";
 
 const Slider = () => {
@@ -15,6 +14,7 @@ const Slider = () => {
             <div className={styles.slider__slide}>
               <div className={styles.slider__slide_image}>
                 <img
+                  alt=""
                   src={
                     process.env.PUBLIC_URL +
                     `/slider/slider-image-${index + 1}.svg`

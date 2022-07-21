@@ -1,21 +1,71 @@
 @import "./../../../assets/styles/variables/colors.scss";
 @import "./../../../assets/styles/variables/fonts.scss";
+@import "./../../../assets/styles/variables/sizes.scss";
+
+$gapFullWidth: 2rem;
 
 .about {
-  padding: 50px 0 100px 0;
+  padding: 5rem 0 10rem 0;
   &__container {
     display: flex;
-    gap: 20px;
-    padding: 0 50px;
+    flex-wrap: wrap;
+    margin: 0 -2rem;
+    padding: 0 5rem;
+
+    @media only screen and (max-width: $laptopWidth) {
+      padding: 0 2rem;
+    }
+
+    @media only screen and (max-width: $tabletWidth) {
+      margin: 0 -1rem;
+      padding: 0 1rem;
+    }
+
+    @media only screen and (max-width: $smallTabletWidth) {
+      padding: 0 1rem;
+    }
+
+    @media only screen and (max-width: $smallPhoneWidth) {
+      margin: 0;
+      padding: 0;
+    }
   }
 
   &__item {
+    padding: 0.5rem 1rem;
     width: 25%;
     flex-basis: 25%;
+
+    @media only screen and (max-width: $smallTabletWidth) {
+      width: 50%;
+      flex-basis: 50%;
+    }
+
+    @media only screen and (max-width: $smallPhoneWidth) {
+      width: 100%;
+      flex-basis: 100%;
+    }
+  }
+
+  &__item_mobile_reversed {
+    @extend .about__item;
+
+    @media only screen and (max-width: $smallPhoneWidth) {
+      display: flex;
+      flex-direction: column-reverse;
+    }
   }
 
   &__top {
-    margin-bottom: 50px;
+    margin-bottom: 5rem;
+
+    @media only screen and (max-width: $laptopWidth) {
+      margin-bottom: 2rem;
+    }
+
+    @media only screen and (max-width: $tabletWidth) {
+      margin-bottom: 1rem;
+    }
   }
 
   &__image_wrapper {
@@ -29,28 +79,47 @@
     background: #ffffff;
     box-shadow: 0px 4px 200px #fbdaaf;
     border-radius: 10px;
-    padding: 20px 25px;
+    padding: 2rem 2.5rem;
+
+    @media only screen and (max-width: $tabletWidth) {
+      padding: 1rem 1.5rem;
+      box-shadow: 0px 3px 30px #fbdaaf;
+    }
+
+    @media only screen and (max-width: $smallTabletWidth) {
+      height: 155px;
+    }
 
     &_title_wrapper {
       display: flex;
 
       img {
-        margin-right: 25px;
+        max-width: 4.5rem;
+        margin-right: 2.5rem;
+
+        @media only screen and (max-width: $tabletWidth) {
+          max-width: 3rem;
+          margin-right: 1rem;
+        }
       }
     }
 
     &_title {
       font-family: $montserrat;
       font-weight: 600;
-      font-size: 16px;
-      line-height: 25px;
+      font-size: 1.6rem;
+      line-height: 1.5;
     }
 
     p {
       font-family: $montserrat;
       font-weight: 400;
-      font-size: 16px;
-      line-height: 25px;
+      font-size: 1.6rem;
+      line-height: 1.5;
+
+      @media only screen and (max-width: $tabletWidth) {
+        margin: 0;
+      }
     }
   }
 }

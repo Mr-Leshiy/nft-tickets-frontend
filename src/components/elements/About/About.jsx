@@ -2,7 +2,6 @@ import React from "react";
 import Title from "../../UI/Title/Title.jsx";
 
 import styles from "./About.module.scss";
-import title_styles from "../../UI/Title/Title.module.scss";
 
 import icon_1 from "../../../assets/images/icon-about-1.svg";
 import icon_2 from "../../../assets/images/icon-about-2.svg";
@@ -44,7 +43,7 @@ const About = () => {
           </div>
         </div>
 
-        <div className={styles.about__item}>
+        <div className={styles.about__item_mobile_reversed}>
           <div className={styles.about__top}>
             <div className={styles.about__info}>
               <div className={styles.about__info_top}>
@@ -92,7 +91,7 @@ const About = () => {
           </div>
         </div>
 
-        <div className={styles.about__item}>
+        <div className={styles.about__item_mobile_reversed}>
           <div className={styles.about__top}>
             <div className={styles.about__info}>
               <div className={styles.about__info_top}>
