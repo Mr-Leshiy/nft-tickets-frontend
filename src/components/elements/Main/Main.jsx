@@ -4,7 +4,7 @@ import styles from "./Main.module.scss";
 
 import IOS from "../../../assets/images/icon-ios.svg";
 import google from "../../../assets/images/icon-google.svg";
-import background from "../../../assets/images/background-main.svg";
+//import background from "../../../assets/images/background-main.svg";
 
 const Main = () => {
   return (
