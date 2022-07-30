@@ -34,7 +34,7 @@ const MainInfoBlock = () => {
           <Button classes="button_yellow" image={google}>
             Download for
           </Button>
-          <Button classes="button_yellow-transparent" image={IOS}>
+          <Button classes="button_yellow" image={IOS}>
             Download for
           </Button>
         </div>

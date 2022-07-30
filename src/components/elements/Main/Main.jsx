@@ -10,7 +10,7 @@ const Main = () => {
   return (
     <section className={styles.main}>
       <div className={styles.main__image}>
-        <img src={background} alt="background" />
+        {/* <img src={background} alt="background" /> */}
       </div>
       <div className={styles.main__content}>
         <h1 className={styles.main__title}>
@@ -26,7 +26,7 @@ const Main = () => {
           <Button classes="button" image={google}>
             Download for
           </Button>
-          <Button classes="button_transparent" image={IOS}>
+          <Button classes="button" image={IOS}>
             Download for
           </Button>
         </div>
