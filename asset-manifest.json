@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/nft-tickets-frontend/static/css/main.539b0fd4.css",
-    "main.js": "/nft-tickets-frontend/static/js/main.256131e3.js",
+    "main.js": "/nft-tickets-frontend/static/js/main.e36503a3.js",
     "static/media/background-info.jpg": "/nft-tickets-frontend/static/media/background-info.1c4d0ae08cbeff89303d.jpg",
     "static/media/image-about-1.jpg": "/nft-tickets-frontend/static/media/image-about-1.1d561122cf1f466f2961.jpg",
     "static/media/image-about-4.jpg": "/nft-tickets-frontend/static/media/image-about-4.7df48a00d1f0f29e3a37.jpg",
@@ -24,10 +24,10 @@
     "static/media/icon-ukraine.svg": "/nft-tickets-frontend/static/media/icon-ukraine.be3273ecb8b259c1e116449dc03bd557.svg",
     "static/media/background-header.svg": "/nft-tickets-frontend/static/media/background-header.a54a5e5d7ee8411fe249.svg",
     "main.539b0fd4.css.map": "/nft-tickets-frontend/static/css/main.539b0fd4.css.map",
-    "main.256131e3.js.map": "/nft-tickets-frontend/static/js/main.256131e3.js.map"
+    "main.e36503a3.js.map": "/nft-tickets-frontend/static/js/main.e36503a3.js.map"
   },
   "entrypoints": [
     "static/css/main.539b0fd4.css",
-    "static/js/main.256131e3.js"
+    "static/js/main.e36503a3.js"
   ]
 }
