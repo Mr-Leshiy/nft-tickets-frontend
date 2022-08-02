@@ -14,12 +14,12 @@ const HeadSocials = () => {
       </li>
       <li>
         <a href="https://github.com/">
-          <img src={icon_inst} alt="linkedin" />
+          <img src={icon_inst} alt="instagram" />
         </a>
       </li>
       <li>
         <a href="https://github.com/">
-          <img src={icon_telegram} alt="linkedin" />
+          <img src={icon_telegram} alt="telegram-" />
         </a>
       </li>
     </ul>

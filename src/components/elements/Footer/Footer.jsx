@@ -29,7 +29,7 @@ const Footer = () => {
       <div className={styles.footer__bottom}>
         <div className={styles.footer__bottom_wrapper}>
           <span className={styles.footer__copywrite}>
-            ©2022 Все права защищены
+            ©2022 All rights reserved
           </span>
 
           <ul className={styles.footer__languages}>
