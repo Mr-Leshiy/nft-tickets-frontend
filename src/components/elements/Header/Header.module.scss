@@ -1,0 +1,102 @@
+@import "./../../../assets/styles/variables/colors.scss";
+@import "./../../../assets/styles/variables/fonts.scss";
+@import "./../../../assets/styles/variables/sizes.scss";
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 90px;
+  padding: 0 7rem;
+  background: $main-color;
+
+  @media only screen and (max-width: $tabletWidth) {
+    padding: 0 10px;
+  }
+
+  &__logo {
+    display: block;
+    img {
+      width: 10rem;
+    }
+  }
+
+  &__nav {
+    ul {
+      display: flex;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      font-family: $montserrat;
+    }
+
+    li {
+      margin: 0 20px;
+    }
+
+    a {
+      font-size: 19px;
+      font-weight: 500;
+      color: $brown-color;
+      text-decoration: none;
+      transition: all 0.3s ease-out;
+
+      &:hover {
+        color: #000;
+      }
+    }
+
+    @media only screen and (max-width: $tabletWidth) {
+      position: fixed;
+      z-index: 99999;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 1.5rem;
+      background-color: $main-color;
+      transition: 1s;
+      transform: translateY(-100%);
+    }
+
+    &_responsive {
+      @extend .header__nav;
+      transform: translateY(0);
+    }
+  }
+
+  &__sidebar {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+
+  &__btn {
+    display: none;
+    padding: 5px;
+    cursor: pointer;
+    background: transparent;
+    color: #000;
+    border: none;
+    outline: none;
+
+    svg {
+      width: 20px;
+      height: 20px;
+    }
+
+    @media only screen and (max-width: $tabletWidth) {
+      display: block;
+    }
+  }
+
+  &__btn_close {
+    @extend .header__btn;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+  }
+}

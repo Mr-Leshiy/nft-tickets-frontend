@@ -1,0 +1,108 @@
+@import "./../../../assets/styles/variables/colors.scss";
+@import "./../../../assets/styles/variables/fonts.scss";
+@import "./../../../assets/styles/variables/sizes.scss";
+
+.footer {
+  &__main {
+    padding: 17rem 10px 16rem 10px;
+    background: $dark-color;
+
+    @media only screen and (max-width: $tabletWidth) {
+      padding: 5rem 10px 4rem 10px;
+    }
+
+    &_wrapper {
+      width: 100%;
+      max-width: 1560px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 0 auto;
+      padding-bottom: 10rem;
+      border-bottom: 1px solid #ff9100;
+
+      @media only screen and (max-width: $tabletWidth) {
+        padding-bottom: 5rem;
+
+        & > * {
+          margin: 20px 0;
+        }
+      }
+
+      @media only screen and (max-width: $smallTabletWidth) {
+        flex-direction: column;
+      }
+    }
+  }
+
+  &__bottom {
+    padding: 4rem 10px;
+    background-color: $footer-color;
+
+    &_wrapper {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      max-width: 1560px;
+      margin: 0 auto;
+    }
+  }
+
+  &__nav {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: $montserrat;
+
+    li {
+      margin: 0 20px;
+    }
+
+    a {
+      font-size: 1.9rem;
+      font-weight: 500;
+      color: $main-color;
+      text-decoration: none;
+      transition: all 0.3s ease-out;
+
+      &:hover {
+        color: $light-grey-color;
+      }
+    }
+  }
+
+  &__copywrite {
+    font-family: $montserrat;
+    font-size: 1.8rem;
+    line-height: 22px;
+
+    color: #fff;
+  }
+
+  &__languages {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    li {
+      margin: 0 6px;
+      a {
+        font-family: $montserrat;
+        font-weight: 400;
+        font-size: 1.8rem;
+        line-height: 22px;
+
+        color: #fff;
+        text-decoration: none;
+        transition: 0.3s all;
+
+        &:hover {
+          color: $main-color;
+        }
+      }
+    }
+  }
+}

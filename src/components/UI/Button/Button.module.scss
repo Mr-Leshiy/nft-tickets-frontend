@@ -1,0 +1,66 @@
+@import "./../../../assets/styles/variables/colors.scss";
+@import "./../../../assets/styles/variables/fonts.scss";
+@import "./../../../assets/styles/variables/sizes.scss";
+
+.button {
+  display: flex;
+  align-items: center;
+  padding: 1rem 2.5rem;
+  background: $dark-color;
+  color: #fff;
+  border: 3px solid $dark-color;
+  border-radius: 25px;
+
+  font-family: $montserrat;
+  font-weight: 300;
+  font-size: 1.8rem;
+  line-height: 1;
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+
+  @media only screen and (max-width: $smallTabletWidth) {
+    padding: 1rem 1.5rem;
+  }
+
+  img {
+    width: 2.1rem;
+    height: 2.1rem;
+    margin-left: 0.8rem;
+  }
+
+  &:hover {
+    transform: scale(1.05);
+    color: #fff;
+  }
+}
+
+.button_transparent {
+  @extend .button;
+  background: transparent;
+
+  &:hover {
+    background: $dark-color;
+    color: #fff;
+  }
+}
+
+.button_yellow {
+  @extend .button;
+  background: $main-color;
+  border: 3px solid $main-color;
+
+  &:hover {
+    transform: scale(1.05);
+    color: #fff;
+  }
+}
+
+.button_yellow-transparent {
+  @extend .button_yellow;
+  background: transparent;
+  color: #fff;
+
+  &:hover {
+    background: $main-color;
+  }
+}
