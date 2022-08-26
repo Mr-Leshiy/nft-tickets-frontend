@@ -6,7 +6,12 @@ import IOS from "../../../assets/images/icon-ios.svg";
 import google from "../../../assets/images/icon-google.svg";
 //import background from "../../../assets/images/background-main.svg";
 
+import { useTranslation } from "react-i18next";
+import "../../../utils/i18next";
+
 const Main = () => {
+  const { t } = useTranslation();
+
   return (
     <section className={styles.main}>
       <div className={styles.main__image}>
@@ -14,20 +19,17 @@ const Main = () => {
       </div>
       <div className={styles.main__content}>
         <h1 className={styles.main__title}>
-          Any large text <br />
-          about <span>anything</span>
+          {t("main.title.main")}
+          <span> {t("main.title.span")}</span>
         </h1>
-        <p className={styles.main__text}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        </p>
+        <p className={styles.main__text}>{t("main.description")}</p>
 
         <div className={styles.main__buttons}>
           <Button classes="button" image={google}>
-            Download for
+            {t("button.download")}
           </Button>
           <Button classes="button" image={IOS}>
-            Download for
+            {t("button.download")}
           </Button>
         </div>
       </div>

@@ -1,0 +1,22 @@
+{
+  "header": {
+    "nav": {
+      "home": "Home",
+      "tickets": "Tickets",
+      "info": "Info"
+    }
+  },
+
+  "main": {
+    "title": {
+      "main": "Any large text about ",
+      "span": "anything"
+    },
+
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  },
+
+  "button": {
+    "download": "Download for"
+  }
+}

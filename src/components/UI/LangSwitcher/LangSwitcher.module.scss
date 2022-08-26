@@ -1,4 +1,78 @@
-.icon {
-  width: 23px;
-  height: 23px;
+@import "./../../../assets/styles/variables/colors.scss";
+@import "./../../../assets/styles/variables/fonts.scss";
+@import "./../../../assets/styles/variables/sizes.scss";
+
+.lswitcher {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  &__main {
+    padding: 1rem 0;
+    position: relative;
+    z-index: 5;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+    & > ul {
+      display: none;
+      position: absolute;
+      top: 100%;
+      width: 60px;
+      margin: 0;
+      padding: 5px;
+      border-radius: 1px;
+      list-style: none;
+      background: #fff;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+      li {
+        width: 100%;
+        margin: 3px 0;
+        button {
+          display: flex;
+          align-items: center;
+          width: 100%;
+          border: none;
+          outline: none;
+          background: transparent;
+          cursor: pointer;
+
+          img {
+            display: block;
+            width: 1.5rem;
+            height: 1.5rem;
+            margin-right: 5px;
+          }
+
+          span {
+            padding-bottom: 3px;
+            font-family: $montserrat;
+            font-weight: 200;
+            font-size: 15px;
+            line-height: 1;
+
+            color: $brown-color;
+          }
+        }
+      }
+    }
+
+    &:hover {
+      & > ul {
+        display: block;
+      }
+    }
+  }
+
+  &__icon {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-right: 6px;
+  }
+
+  &__arrow {
+    width: 12px;
+  }
 }
