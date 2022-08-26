@@ -37,7 +37,7 @@ const LangSwitcher = () => {
     <>
       <ul className={styles.lswitcher}>
         <li className={styles.lswitcher__main}>
-          {languages.forEach(({ code, country_flag }) => {
+          {languages.map(({ code, country_flag }) => {
             if (code === i18next.resolvedLanguage) {
               return (
                 <img
@@ -47,7 +47,7 @@ const LangSwitcher = () => {
                 />
               );
             } else {
-              console.log("nope");
+              return null;
             }
           })}
 
