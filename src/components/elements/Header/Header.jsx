@@ -6,12 +6,18 @@ import logo from "../../../assets/images/logo.svg";
 
 import { FaBars, FaTimes } from "react-icons/fa";
 
+import { useTranslation } from "react-i18next";
+import "../../../utils/i18next";
+
 const Header = () => {
   const [isActive, setActive] = useState(true);
 
   const toggleNav = () => {
     setActive(!isActive);
   };
+
+  // Translation
+  const { t } = useTranslation();
 
   return (
     <header className={styles.header}>
@@ -28,13 +34,13 @@ const Header = () => {
       >
         <ul>
           <li>
-            <a href="https://github.com/">Home</a>
+            <a href="https://github.com/"> {t("header.nav.home")} </a>
           </li>
           <li>
-            <a href="https://github.com/">Tickets</a>
+            <a href="https://github.com/">{t("header.nav.tickets")}</a>
           </li>
           <li>
-            <a href="https://github.com/">Info</a>
+            <a href="https://github.com/">{t("header.nav.info")}</a>
           </li>
 
           <button className={styles.header__btn_close} onClick={toggleNav}>

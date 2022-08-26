@@ -3,6 +3,28 @@ import FooterSocials from "../../UI/FooterSocials/FooterSocials";
 import React from "react";
 import styles from "./Footer.module.scss";
 
+import i18next from "i18next";
+
+const languages = [
+  {
+    code: "ua",
+    name: "UA",
+    country_code: "ua",
+  },
+
+  {
+    code: "en",
+    name: "EN",
+    country_code: "gb",
+  },
+
+  {
+    code: "ru",
+    name: "RU",
+    country_code: "ru",
+  },
+];
+
 const Footer = () => {
   return (
     <footer className={styles.footer}>
@@ -33,15 +55,15 @@ const Footer = () => {
           </span>
 
           <ul className={styles.footer__languages}>
-            <li>
-              <a href="https://github.com/">EN</a>
-            </li>
-            <li>
-              <a href="https://github.com/">RU</a>
-            </li>
-            <li>
-              <a href="https://github.com/">UA</a>
-            </li>
+            {languages.map(({ code, name, country_code }) => {
+              return (
+                <li key={country_code}>
+                  <button onClick={() => i18next.changeLanguage(code)}>
+                    {name}
+                  </button>
+                </li>
+              );
+            })}
           </ul>
         </div>
       </div>
