@@ -1,6 +1,5 @@
-@import "./../../../assets/styles/variables/colors.scss";
-@import "./../../../assets/styles/variables/fonts.scss";
-@import "./../../../assets/styles/variables/sizes.scss";
+@import "./../../../assets/styles/variables/variables.scss";
+@import "./../../../assets/styles/utils/mixins.scss";
 
 .header {
   display: flex;
@@ -65,6 +64,16 @@
     &_responsive {
       @extend .header__nav;
       transform: translateY(0);
+
+      @media only screen and (max-width: $smallPhoneWidth) {
+        ul {
+          flex-direction: column;
+
+          li {
+            margin: 10px 0;
+          }
+        }
+      }
     }
   }
 

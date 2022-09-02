@@ -4,7 +4,6 @@ import styles from "./Main.module.scss";
 
 import IOS from "../../../assets/images/icon-ios.svg";
 import google from "../../../assets/images/icon-google.svg";
-//import background from "../../../assets/images/background-main.svg";
 
 import { useTranslation } from "react-i18next";
 import "../../../utils/i18next";
@@ -14,9 +13,7 @@ const Main = () => {
 
   return (
     <section className={styles.main}>
-      <div className={styles.main__image}>
-        {/* <img src={background} alt="background" /> */}
-      </div>
+      <div className={styles.main__image}></div>
       <div className={styles.main__content}>
         <h1 className={styles.main__title}>
           {t("main.title.main")}

@@ -1,4 +1,5 @@
-@import-normalize;
+//@import-normalize;
+@import "./assets/styles/variables/variables.scss";
 
 * {
   box-sizing: border-box;
@@ -14,6 +15,61 @@ body {
   width: 100%;
   overflow-x: hidden;
   margin: 0;
+}
+
+p,
+ul,
+li,
+a,
+code,
+table,
+td,
+dt,
+dd,
+div,
+input,
+textarea,
+button,
+nav,
+label,
+select {
+  font-size: 2rem;
+  //color: $color-dark;
+  font-family: $montserrat;
+}
+
+p {
+  font-size: 16px;
+  line-height: 150%;
+}
+
+h1 {
+  font-size: 3.4rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2.8rem;
+}
+
+h4 {
+  font-size: 2.4rem;
+}
+
+h5 {
+  font-size: 2rem;
+}
+
+h6 {
+  font-size: 1.6rem;
+}
+
+#root {
+  width: 100%;
+  overflow: hidden;
 }
 
 @media (max-width: 1366px) {

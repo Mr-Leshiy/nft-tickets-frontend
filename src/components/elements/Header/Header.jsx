@@ -1,4 +1,8 @@
 import { React, useState } from "react";
+import { Routes, Route, Link } from "react-router-dom";
+import { TicketsPage } from "../../../pages/TicketsPage";
+import { FrontPage } from "../../../pages/FrontPage";
+
 import HeadSocials from "../../UI/HeadSocials/HeadSocials.jsx";
 import LangSwitcher from "../../UI/LangSwitcher/LangSwitcher.jsx";
 import styles from "./Header.module.scss";
@@ -20,44 +24,51 @@ const Header = () => {
   const { t } = useTranslation();
 
   return (
-    <header className={styles.header}>
-      <a href="/" className={styles.header__logo}>
-        <img src={logo} alt="T-uty" />
-      </a>
+    <div>
+      <header className={styles.header}>
+        <a href="/" className={styles.header__logo}>
+          <img src={logo} alt="T-uty" />
+        </a>
 
-      <nav
-        className={
-          isActive
-            ? `${styles.header__nav}`
-            : `${styles.header__nav_responsive}`
-        }
-      >
-        <ul>
-          <li>
-            <a href="https://github.com/"> {t("header.nav.home")} </a>
-          </li>
-          <li>
-            <a href="https://github.com/">{t("header.nav.tickets")}</a>
-          </li>
-          <li>
-            <a href="https://github.com/">{t("header.nav.info")}</a>
-          </li>
+        <nav
+          className={
+            isActive
+              ? `${styles.header__nav}`
+              : `${styles.header__nav_responsive}`
+          }
+        >
+          <ul>
+            <li>
+              <Link to="/nft-tickets-frontend"> {t("header.nav.home")} </Link>
+            </li>
+            <li>
+              <Link to="/tickets">{t("header.nav.tickets")}</Link>
+            </li>
+            <li>
+              <a href="https://github.com/">{t("header.nav.info")}</a>
+            </li>
 
-          <button className={styles.header__btn_close} onClick={toggleNav}>
-            <FaTimes />
-          </button>
-        </ul>
-      </nav>
+            <button className={styles.header__btn_close} onClick={toggleNav}>
+              <FaTimes />
+            </button>
+          </ul>
+        </nav>
 
-      <div className={styles.header__sidebar}>
-        <LangSwitcher></LangSwitcher>
-        <HeadSocials></HeadSocials>
-      </div>
+        <div className={styles.header__sidebar}>
+          <LangSwitcher></LangSwitcher>
+          <HeadSocials></HeadSocials>
+        </div>
 
-      <button className={styles.header__btn} onClick={toggleNav}>
-        <FaBars />
-      </button>
-    </header>
+        <button className={styles.header__btn} onClick={toggleNav}>
+          <FaBars />
+        </button>
+      </header>
+
+      <Routes>
+        <Route path="/nft-tickets-frontend" element={<FrontPage />}></Route>
+        <Route path="/tickets" element={<TicketsPage />}></Route>
+      </Routes>
+    </div>
   );
 };
 
