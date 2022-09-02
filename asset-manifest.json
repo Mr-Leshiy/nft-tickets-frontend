@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/nft-tickets-frontend/static/css/main.c945ebcd.css",
-    "main.js": "/nft-tickets-frontend/static/js/main.74b9b020.js",
+    "main.css": "/nft-tickets-frontend/static/css/main.bca67799.css",
+    "main.js": "/nft-tickets-frontend/static/js/main.1fa05613.js",
     "static/media/background-info.jpg": "/nft-tickets-frontend/static/media/background-info.1c4d0ae08cbeff89303d.jpg",
+    "static/media/image-ticket.jpg": "/nft-tickets-frontend/static/media/image-ticket.b6d8f077a5d8a55b6833.jpg",
     "static/media/image-about-1.jpg": "/nft-tickets-frontend/static/media/image-about-1.1d561122cf1f466f2961.jpg",
     "static/media/image-about-4.jpg": "/nft-tickets-frontend/static/media/image-about-4.7df48a00d1f0f29e3a37.jpg",
     "static/media/logo.svg": "/nft-tickets-frontend/static/media/logo.3ddea29afeffae09e786f2d0464de8fe.svg",
@@ -16,22 +17,24 @@
     "static/media/icon-ios.svg": "/nft-tickets-frontend/static/media/icon-ios.09cdeee9023efaa38c40556404b3a9a0.svg",
     "static/media/icon-footer-inst.svg": "/nft-tickets-frontend/static/media/icon-footer-inst.5415bab54013228bb4d841fdc9a33ff8.svg",
     "static/media/icon-header-inst.svg": "/nft-tickets-frontend/static/media/icon-header-inst.e25d69bfae9a0a55e903660d5ac1248f.svg",
+    "static/media/icon-ticket-id.svg": "/nft-tickets-frontend/static/media/icon-ticket-id.6359a1580d58e049d7e70f223874f653.svg",
     "static/media/icon-footer-linkedin.svg": "/nft-tickets-frontend/static/media/icon-footer-linkedin.f0b935e4ab17c26c463aa5d611610db9.svg",
     "static/media/icon-header-linkedin.svg": "/nft-tickets-frontend/static/media/icon-header-linkedin.f658768b5f5668e9a186ee42dc7ea76a.svg",
+    "index.html": "/nft-tickets-frontend/index.html",
+    "static/media/icon-ticket-time.svg": "/nft-tickets-frontend/static/media/icon-ticket-time.0f9a4f449915b6e5888d1a44953af980.svg",
     "static/media/icon-about-4.svg": "/nft-tickets-frontend/static/media/icon-about-4.247c8c5da5f31eedb1f891871dbb4cbf.svg",
     "static/media/icon-ru.svg": "/nft-tickets-frontend/static/media/icon-ru.3ad4247c083fdac3b3f9bb69041a1471.svg",
     "static/media/icon-footer-telegram.svg": "/nft-tickets-frontend/static/media/icon-footer-telegram.dfcfb6d83e34c35b29c1618b124c7133.svg",
     "static/media/icon-header-telegram.svg": "/nft-tickets-frontend/static/media/icon-header-telegram.0965311dd17970d6203ecaf1b3c4a446.svg",
     "static/media/icon-arrow-down.svg": "/nft-tickets-frontend/static/media/icon-arrow-down.9f26dbd4c495efe8aefb7c5fd9ca8d2f.svg",
-    "index.html": "/nft-tickets-frontend/index.html",
     "static/media/icon-ukraine.svg": "/nft-tickets-frontend/static/media/icon-ukraine.be3273ecb8b259c1e116449dc03bd557.svg",
     "static/media/background-header.svg": "/nft-tickets-frontend/static/media/background-header.a54a5e5d7ee8411fe249.svg",
     "static/media/getFetch.cjs": "/nft-tickets-frontend/static/media/getFetch.c780682470504fffbd04.cjs",
-    "main.c945ebcd.css.map": "/nft-tickets-frontend/static/css/main.c945ebcd.css.map",
-    "main.74b9b020.js.map": "/nft-tickets-frontend/static/js/main.74b9b020.js.map"
+    "main.bca67799.css.map": "/nft-tickets-frontend/static/css/main.bca67799.css.map",
+    "main.1fa05613.js.map": "/nft-tickets-frontend/static/js/main.1fa05613.js.map"
   },
   "entrypoints": [
-    "static/css/main.c945ebcd.css",
-    "static/js/main.74b9b020.js"
+    "static/css/main.bca67799.css",
+    "static/js/main.1fa05613.js"
   ]
 }
