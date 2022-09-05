@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/nft-tickets-frontend/static/css/main.bca67799.css",
-    "main.js": "/nft-tickets-frontend/static/js/main.1fa05613.js",
+    "main.css": "/nft-tickets-frontend/static/css/main.631111d8.css",
+    "main.js": "/nft-tickets-frontend/static/js/main.06911890.js",
     "static/media/background-info.jpg": "/nft-tickets-frontend/static/media/background-info.1c4d0ae08cbeff89303d.jpg",
     "static/media/image-ticket.jpg": "/nft-tickets-frontend/static/media/image-ticket.b6d8f077a5d8a55b6833.jpg",
     "static/media/image-about-1.jpg": "/nft-tickets-frontend/static/media/image-about-1.1d561122cf1f466f2961.jpg",
@@ -11,6 +11,7 @@
     "static/media/image-about-3.jpg": "/nft-tickets-frontend/static/media/image-about-3.c2a2616e93f378c6c36d.jpg",
     "static/media/icon-about-3.svg": "/nft-tickets-frontend/static/media/icon-about-3.3f4b06d29a505479fad7f2072793a203.svg",
     "static/media/icon-about-1.svg": "/nft-tickets-frontend/static/media/icon-about-1.5b26d3c8e707127f326ef7b7f365fc22.svg",
+    "static/media/info-tickets-image.svg": "/nft-tickets-frontend/static/media/info-tickets-image.88f5e3af2dd04b0bc00be3ea5a51a3e3.svg",
     "static/media/icon-about-2.svg": "/nft-tickets-frontend/static/media/icon-about-2.8d3ee4cd2e30d571d43e6f7afc6a77b6.svg",
     "static/media/icon-uk.svg": "/nft-tickets-frontend/static/media/icon-uk.402cee2dea2119f1777b898df42d3819.svg",
     "static/media/icon-google.svg": "/nft-tickets-frontend/static/media/icon-google.de3b807c3afe5b08c1ee0f2eaf49c709.svg",
@@ -30,11 +31,11 @@
     "static/media/icon-ukraine.svg": "/nft-tickets-frontend/static/media/icon-ukraine.be3273ecb8b259c1e116449dc03bd557.svg",
     "static/media/background-header.svg": "/nft-tickets-frontend/static/media/background-header.a54a5e5d7ee8411fe249.svg",
     "static/media/getFetch.cjs": "/nft-tickets-frontend/static/media/getFetch.c780682470504fffbd04.cjs",
-    "main.bca67799.css.map": "/nft-tickets-frontend/static/css/main.bca67799.css.map",
-    "main.1fa05613.js.map": "/nft-tickets-frontend/static/js/main.1fa05613.js.map"
+    "main.631111d8.css.map": "/nft-tickets-frontend/static/css/main.631111d8.css.map",
+    "main.06911890.js.map": "/nft-tickets-frontend/static/js/main.06911890.js.map"
   },
   "entrypoints": [
-    "static/css/main.bca67799.css",
-    "static/js/main.1fa05613.js"
+    "static/css/main.631111d8.css",
+    "static/js/main.06911890.js"
   ]
 }
